@@ -13,11 +13,15 @@
           //  Console.WriteLine("Star Series2");
            // starsSeries2();
             Console.WriteLine("Problem 01");
-            Problem1();
+           // Problem1();
             Console.WriteLine("Problem 02");
-            Problem2();
+           // Problem2();
             Console.WriteLine("Problem 03");
-            Problem3();
+           // Problem3();
+            Console.WriteLine("Problem 04");
+            Problem4();
+            Console.WriteLine("Problem 04");
+            Problem5();
 
 
 
@@ -110,7 +114,7 @@
         }
         #endregion
 
-        #region
+        #region Problem 3
         public static void Problem3()
         {
             // int a = 5;
@@ -124,6 +128,23 @@
             Console.WriteLine("Value of b is : {0}", b);
             Console.WriteLine("Sum is : {0}", sum);
             Console.WriteLine("Sum of {0} and {1} is {2}" , a ,b , sum);
+        }
+        #endregion
+
+        #region Problem 4
+        public static void Problem4()
+        {
+
+        }
+        #endregion
+
+        #region Problem 5
+        public static void Problem5()
+        {
+            Console.Write("Input some String: ");
+            string message = Console.ReadLine();
+            Console.WriteLine("You have Typed : {0}", message);
+
         }
         #endregion
 
