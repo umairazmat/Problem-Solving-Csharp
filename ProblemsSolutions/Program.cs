@@ -29,9 +29,12 @@
             Console.WriteLine("Problem 08");
             // Problem8();
             Console.WriteLine("Problem 09");
-            Problem9();
+           // Problem9();
             Console.WriteLine("Problem 10");
-            // Problem10();
+            Problem10();
+          Console.WriteLine("Problem 10");
+            Problem11();
+
 
 
         }
@@ -245,7 +248,40 @@
         #region problem 10
         public static void Problem10()
         {
+            Console.Write("Enter an integer variable: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The table of {0} is as follows:", number);
 
+            Console.WriteLine("{0} * 1 = {1}", number, number * 1);
+            Console.WriteLine("{0} * 2 = {1}", number, number * 2);
+            Console.WriteLine("{0} * 3 = {1}", number, number * 3);
+            Console.WriteLine("{0} * 4 = {1}", number, number * 4);
+            Console.WriteLine("{0} * 5 = {1}", number, number * 5);
+            Console.WriteLine("{0} * 6 = {1}", number, number * 6);
+            Console.WriteLine("{0} * 7 = {1}", number, number * 7);
+            Console.WriteLine("{0} * 8 = {1}", number, number * 8);
+            Console.WriteLine("{0} * 9 = {1}", number, number * 9);
+            Console.WriteLine("{0} * 10 = {1}", number, number * 10);
+
+        }
+        #endregion
+
+        #region problem 11
+
+        public static void Problem11(){
+
+            Console.Write("Enter value 1:");
+            int _num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter value 2:");
+            int _num2 = Convert.ToInt32(Console.ReadLine());
+            int sum = _num1 + _num2;
+            Console.WriteLine("{0} + {1} = {2}", _num1, _num2, sum);
+            int sub = _num1 - _num2;
+            Console.WriteLine("{0} - {1} = {2}", _num1, _num2, sub);
+            int mult = _num1 * _num2;
+            Console.WriteLine("{0} * {1} = {2}", _num1, _num2, mult);
+            int divide = _num1 / _num2;
+            Console.WriteLine("{0} / {1} = {2}", _num1, _num2, divide);
         }
         #endregion
     }
