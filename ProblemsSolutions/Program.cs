@@ -14,6 +14,8 @@
             starsSeries2();
             Console.WriteLine("Problem 01");
             Problem1();
+            Console.WriteLine("Problem 01");
+            Problem2();
 
 
 
@@ -63,7 +65,7 @@
         }
         #endregion
 
-        #region
+        #region Problem 1
         public static void Problem1()
         {
             for (int h = 0; h < 6; h++  )
@@ -74,6 +76,34 @@
                 }
 
                 Console.WriteLine();
+            }
+        }
+        #endregion
+
+        #region Problem 02 
+        public static void Problem2()
+        {
+            string[] lines = new string[]
+        {
+            "        *",
+            "     *  *  * ",
+            "  *     *     *",
+            "*       *        *",
+            "        *",
+            "        *",
+            "        *",
+            "        *",
+            "        *",
+            "        *",
+            "        *",
+            "        *",
+            "        *",
+            "        *"
+        };
+
+            foreach (string line in lines)
+            {
+                Console.WriteLine(line);
             }
         }
         #endregion
