@@ -19,15 +19,18 @@
             Console.WriteLine("Problem 03");
            // Problem3();
             Console.WriteLine("Problem 04");
-            Problem4();
+           // Problem4();
             Console.WriteLine("Problem 05");
-           // Problem5();
-
+            // Problem5();
+            Console.WriteLine("Problem 06");
+            Problem6();
+            Console.WriteLine("Problem 07");
+            Problem7();
 
 
         }
-     
-      public  static void stars()
+
+        public  static void stars()
         {
               for (int i = 0; i< 5; i++)
             {
@@ -167,6 +170,22 @@
             Console.Write("Input some String: ");
             string message = Console.ReadLine();
             Console.WriteLine("You have Typed : {0}", message);
+
+        }
+        #endregion
+
+        #region Problem 6
+        public static void Problem6()
+        {
+            Console.Write("Enter some Integer: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("You have Typed : {0}", number);
+        }
+        #endregion
+
+        #region Problem 7
+        public static void Problem7()
+        {
 
         }
         #endregion
