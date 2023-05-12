@@ -27,9 +27,9 @@
             Console.WriteLine("Problem 07");
             // Problem7();
             Console.WriteLine("Problem 08");
-             Problem8();
+            // Problem8();
             Console.WriteLine("Problem 09");
-            // Problem9();
+            Problem9();
             Console.WriteLine("Problem 10");
             // Problem10();
 
@@ -231,7 +231,14 @@
         #region problem 9
         public static void Problem9()
         {
-
+            Console.Write("Enter 1st number to multiply: ");
+            int _num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter 2nd number to multiply: ");
+            int _num2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter 3rd number to multiply: ");
+            int _num3 = Convert.ToInt32(Console.ReadLine());
+            int multi = _num1 * _num2 * _num3;
+            Console.WriteLine("Output : {0} * {1} * {2} =  {3}", _num1, _num2, _num3, multi);
         }
         #endregion
 
