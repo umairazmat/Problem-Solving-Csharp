@@ -1,47 +1,47 @@
-﻿using System;
-
-
- namespace ProblemSolution {
+﻿namespace ProblemSolution
+{
 
     public class ProblemSolution
     {
-      public static void Main(string[] args)
+        public static void Main(string[] args)
         {
             // stars();
-          // Console.WriteLine("Star Series1");
-          //  starsSeries1();
-          //  Console.WriteLine("Star Series2");
-           // starsSeries2();
+            // Console.WriteLine("Star Series1");
+            //  starsSeries1();
+            //  Console.WriteLine("Star Series2");
+            // starsSeries2();
             Console.WriteLine("Problem 01");
-           // Problem1();
+            // Problem1();
             Console.WriteLine("Problem 02");
-           // Problem2();
+            // Problem2();
             Console.WriteLine("Problem 03");
-           // Problem3();
+            // Problem3();
             Console.WriteLine("Problem 04");
-           // Problem4();
+            // Problem4();
             Console.WriteLine("Problem 05");
             // Problem5();
             Console.WriteLine("Problem 06");
-          //  Problem6();
+            //  Problem6();
             Console.WriteLine("Problem 07");
             // Problem7();
             Console.WriteLine("Problem 08");
             // Problem8();
             Console.WriteLine("Problem 09");
-           // Problem9();
+            // Problem9();
             Console.WriteLine("Problem 10");
-            Problem10();
-          Console.WriteLine("Problem 10");
-            Problem11();
+            // Problem10();
+            Console.WriteLine("Problem 11");
+           // Problem11();
+            Console.WriteLine("Problem 12");
+            Problem12();
 
 
 
         }
 
-        public  static void stars()
+        public static void stars()
         {
-              for (int i = 0; i< 5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 System.Console.WriteLine("*");
             }
@@ -64,7 +64,7 @@
 
         }
         #endregion
-       
+
         #region StarSeries2
         public static void starsSeries2()
         {
@@ -86,7 +86,7 @@
         #region Problem 1
         public static void Problem1()
         {
-            for (int h = 0; h < 6; h++  )
+            for (int h = 0; h < 6; h++)
             {
                 for (int w = 0; w < 9; w++)
                 {
@@ -139,7 +139,7 @@
             Console.WriteLine("Value of a is : {0}", a);
             Console.WriteLine("Value of b is : {0}", b);
             Console.WriteLine("Sum is : {0}", sum);
-            Console.WriteLine("Sum of {0} and {1} is {2}" , a ,b , sum);
+            Console.WriteLine("Sum of {0} and {1} is {2}", a, b, sum);
         }
         #endregion
 
@@ -163,11 +163,11 @@
             Console.Write("Enter Number What table you want to print :");
             int tableNumber = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter How many times you want to Print :");
-            int mul = Convert.ToInt32(Console.ReadLine()); 
+            int mul = Convert.ToInt32(Console.ReadLine());
             for (int times = 0; times < mul; times++)
             {
                 int result = tableNumber * times;
-                Console.WriteLine("{0} * {1} = {2}", tableNumber ,times, result);
+                Console.WriteLine("{0} * {1} = {2}", tableNumber, times, result);
             }
 
         }
@@ -195,7 +195,7 @@
         #region Problem 7
         public static void Problem7()
         {
-           
+
             Console.Write("Enter value 1:");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter value 2:");
@@ -208,7 +208,7 @@
         #region problem 8
         public static void Problem8()
         {
-           
+
             Console.Write("Name:");
             String _name = Console.ReadLine();
             Console.Write("Cell:");
@@ -268,7 +268,8 @@
 
         #region problem 11
 
-        public static void Problem11(){
+        public static void Problem11()
+        {
 
             Console.Write("Enter value 1:");
             int _num1 = Convert.ToInt32(Console.ReadLine());
@@ -283,6 +284,63 @@
             int divide = _num1 / _num2;
             Console.WriteLine("{0} / {1} = {2}", _num1, _num2, divide);
         }
+        #endregion
+
+        #region Problem12
+        public static void Problem12()
+        {
+            int n = 1;
+            int n2 = n * n;
+            int n3 = n * n * n;
+            Console.WriteLine("n\tn2\tn3");
+            Console.WriteLine("{0}\t{1}\t{2}", n, n2, n3);
+
+            n = 2;
+            n2 = n * n;
+            n3 = n * n * n;
+            Console.WriteLine("{0}\t{1}\t{2}", n, n2, n3);
+            
+            n = 3;
+            n2 = n * n;
+            n3 = n * n * n;
+            Console.WriteLine("{0}\t{1}\t{2}", n, n2, n3);
+
+            n = 4;
+            n2 = n * n;
+            n3 = n * n * n;
+            Console.WriteLine("{0}\t{1}\t{2}", n, n2, n3);
+
+            n = 5;
+            n2 = n * n;
+            n3 = n * n * n;
+            Console.WriteLine("{0}\t{1}\t{2}", n, n2, n3);
+
+            n = 6;
+            n2 = n * n;
+            n3 = n * n * n;
+            Console.WriteLine("{0}\t{1}\t{2}", n, n2, n3);
+
+            n = 7;
+            n2 = n * n;
+            n3 = n * n * n;
+            Console.WriteLine("{0}\t{1}\t{2}", n, n2, n3);
+
+            n = 8;
+            n2 = n * n;
+            n3 = n * n * n;
+            Console.WriteLine("{0}\t{1}\t{2}", n, n2, n3);
+
+            n = 9;
+            n2 = n * n;
+            n3 = n * n * n;
+            Console.WriteLine("{0}\t{1}\t{2}", n, n2, n3);
+
+            n = 10;
+            n2 = n * n;
+            n3 = n * n * n;
+            Console.WriteLine("{0}\t{1}\t{2}", n, n2, n3);
+        }
+
         #endregion
     }
 
