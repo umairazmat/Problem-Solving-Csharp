@@ -8,14 +8,16 @@
       public static void Main(string[] args)
         {
             // stars();
-            Console.WriteLine("Star Series1");
-            starsSeries1();
-            Console.WriteLine("Star Series2");
-            starsSeries2();
+          // Console.WriteLine("Star Series1");
+          //  starsSeries1();
+          //  Console.WriteLine("Star Series2");
+           // starsSeries2();
             Console.WriteLine("Problem 01");
             Problem1();
-            Console.WriteLine("Problem 01");
+            Console.WriteLine("Problem 02");
             Problem2();
+            Console.WriteLine("Problem 03");
+            Problem3();
 
 
 
@@ -105,6 +107,23 @@
             {
                 Console.WriteLine(line);
             }
+        }
+        #endregion
+
+        #region
+        public static void Problem3()
+        {
+            // int a = 5;
+            Console.Write("Enter value 1:");
+            int a = Convert.ToInt32(Console.ReadLine());
+            // int b = 3;
+            Console.Write("Enter value 2:");
+            int b = Convert.ToInt32(Console.ReadLine());
+            int sum = a + b;
+            Console.WriteLine("Value of a is : {0}", a);
+            Console.WriteLine("Value of b is : {0}", b);
+            Console.WriteLine("Sum is : {0}", sum);
+            Console.WriteLine("Sum of {0} and {1} is {2}" , a ,b , sum);
         }
         #endregion
 
