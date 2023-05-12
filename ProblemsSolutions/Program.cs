@@ -186,7 +186,13 @@
         #region Problem 7
         public static void Problem7()
         {
-
+           
+            Console.Write("Enter value 1:");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter value 2:");
+            int b = Convert.ToInt32(Console.ReadLine());
+            int sum = a + b;
+            Console.WriteLine("Sum of {0} & {1} is : {2}", a, b, sum);
         }
         #endregion
 
