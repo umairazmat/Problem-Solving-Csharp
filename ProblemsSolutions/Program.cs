@@ -23,9 +23,15 @@
             Console.WriteLine("Problem 05");
             // Problem5();
             Console.WriteLine("Problem 06");
-            Problem6();
+          //  Problem6();
             Console.WriteLine("Problem 07");
-            Problem7();
+            // Problem7();
+            Console.WriteLine("Problem 08");
+             Problem8();
+            Console.WriteLine("Problem 09");
+            // Problem9();
+            Console.WriteLine("Problem 10");
+            // Problem10();
 
 
         }
@@ -196,6 +202,45 @@
         }
         #endregion
 
+        #region problem 8
+        public static void Problem8()
+        {
+           
+            Console.Write("Name:");
+            String _name = Console.ReadLine();
+            Console.Write("Cell:");
+            String _cell = Console.ReadLine();
+            Console.Write("WhatsApp:");
+            String _whatsApp = Console.ReadLine();
+            Console.Write("Email:");
+            String _email = Console.ReadLine();
+            Console.Write("Age:");
+            int _age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Thanks for the input ");
+            Console.WriteLine("You have provided the following info ");
+
+            Console.WriteLine("Name : {0}", _name);
+            Console.WriteLine("Cell : {0}", _cell);
+            Console.WriteLine("Whatsapp : {0}", _whatsApp);
+            Console.WriteLine("Email : {0}", _email);
+            Console.WriteLine("Age : {0}", _age);
+
+        }
+        #endregion
+
+        #region problem 9
+        public static void Problem9()
+        {
+
+        }
+        #endregion
+
+        #region problem 10
+        public static void Problem10()
+        {
+
+        }
+        #endregion
     }
 
 }
