@@ -134,18 +134,29 @@
         #region Problem 4
         public static void Problem4()
         {
-            int a = 1;
-            int b = 2;
-            int result = b * a;
-            Console.WriteLine("{0} * {1} = {2}", b, a, result);
-            a++;
-            Console.WriteLine("{0} * {1} = {2}", b, a, result);
-            a++;
-            Console.WriteLine("{0} * {1} = {2}", b, a, result);
-            a++;
-            Console.WriteLine("{0} * {1} = {2}", b, a, result);
-            a++;
-            Console.WriteLine("{0} * {1} = {2}", b, a, result);
+            /*  int a = 1;
+              int b = 2;
+              int result = b * a;
+              Console.WriteLine("{0} * {1} = {2}", b, a, result);
+              a++;
+              Console.WriteLine("{0} * {1} = {2}", b, a, result);
+              a++;
+              Console.WriteLine("{0} * {1} = {2}", b, a, result);
+              a++;
+              Console.WriteLine("{0} * {1} = {2}", b, a, result);
+              a++;
+              Console.WriteLine("{0} * {1} = {2}", b, a, result); */
+
+            // 2nd way 
+            Console.Write("Enter Number What table you want to print :");
+            int tableNumber = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter How many times you want to Print :");
+            int mul = Convert.ToInt32(Console.ReadLine()); 
+            for (int times = 0; times < mul; times++)
+            {
+                int result = tableNumber * times;
+                Console.WriteLine("{0} * {1} = {2}", tableNumber ,times, result);
+            }
 
         }
         #endregion
