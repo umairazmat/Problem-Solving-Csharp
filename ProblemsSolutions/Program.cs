@@ -20,8 +20,8 @@
            // Problem3();
             Console.WriteLine("Problem 04");
             Problem4();
-            Console.WriteLine("Problem 04");
-            Problem5();
+            Console.WriteLine("Problem 05");
+           // Problem5();
 
 
 
@@ -134,6 +134,18 @@
         #region Problem 4
         public static void Problem4()
         {
+            int a = 1;
+            int b = 2;
+            int result = b * a;
+            Console.WriteLine("{0} * {1} = {2}", b, a, result);
+            a++;
+            Console.WriteLine("{0} * {1} = {2}", b, a, result);
+            a++;
+            Console.WriteLine("{0} * {1} = {2}", b, a, result);
+            a++;
+            Console.WriteLine("{0} * {1} = {2}", b, a, result);
+            a++;
+            Console.WriteLine("{0} * {1} = {2}", b, a, result);
 
         }
         #endregion
