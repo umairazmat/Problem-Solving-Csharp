@@ -438,9 +438,31 @@
         #region Problem 17
         public static void Problem17()
         {
+            
+            int table = 5;
+            //Console.Write("Enter How many times you want to print :");
+            //int mul = Convert.ToInt32(Console.ReadLine());
+
+            for (int times = 0; times <= 20; times++)
+            {
+                if (times % 2 == 0)
+                {
+                    int result = table * times;
+                    Console.WriteLine("{0} * {1} = {2}", table, times, result);
+                }
+            }
+            Console.WriteLine("\nIn revere Order\n");
+            for (int times = 20; times >= 0; times--)
+            {
+                if (times % 2 == 0)
+                {
+                    int result = table * times;
+                    Console.WriteLine("{0} * {1} = {2}", table, times, result);
+                }
+            }
 
         }
-#
+        #endregion
 
         #region Problem 18
         public static void Problem18()
