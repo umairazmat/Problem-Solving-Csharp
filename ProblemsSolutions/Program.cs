@@ -35,9 +35,9 @@
             Console.WriteLine("Problem 12");
             // Problem12();
             Console.WriteLine("Problem 13");
-             Problem13();
+            // Problem13();
             Console.WriteLine("Problem 14");
-            // Problem14();
+            Problem14();
             Console.WriteLine("Problem 15");
             // Problem15();
 
@@ -369,6 +369,19 @@
         public static void Problem14()
         {
 
+            Console.Write("Enter number for Table : ");
+            int table = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter How many times you want to print :");
+            int mul = Convert.ToInt32(Console.ReadLine());
+
+            for ( int times = 0; times < mul; times++)
+            {
+                if (times % 2 == 0 )
+                {
+                    int result = table * times;
+                    Console.WriteLine("{0} * {1} = {2}", table, times, result);
+                }
+            }
         }
         #endregion
 
