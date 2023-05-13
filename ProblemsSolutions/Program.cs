@@ -59,9 +59,9 @@
             Console.WriteLine("Problem 24");
             // Problem24();
             Console.WriteLine("Problem 25");
-             Problem25();
+            // Problem25();
             Console.WriteLine("Problem 26");
-            // Problem26();
+             Problem26();
 
 
 
@@ -587,7 +587,7 @@
         {
             for ( int i = 1; i<= 5 ; i++)
             {
-                for (int j = 0;j < i ; j++)
+                for (int j = 0;j <= i ; j++)
                 {
                     
                     Console.Write("{0}", i);
@@ -600,6 +600,16 @@
         #region Problem 26
         public static void Problem26()
         {
+            int count = 0;
+            for ( int i = 1;i < 5 ; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    count++;
+                    Console.Write("{0}", count);
+                }
+                Console.WriteLine();
+            }
 
         }
         #endregion
