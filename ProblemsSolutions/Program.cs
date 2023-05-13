@@ -49,9 +49,9 @@
             Console.WriteLine("Problem 19");
              // Problem19();
             Console.WriteLine("Problem 20");
-             Problem20();
+             // Problem20();
             Console.WriteLine("Problem 21");
-            // Problem21();
+             Problem21();
             Console.WriteLine("Problem 22");
             // Problem22();
 
@@ -508,7 +508,14 @@
         #region Problem 21
         public static void Problem21()
         {
-
+            int sum = 0;
+            Console.WriteLine("No\tSum");
+            for (int i = 1; i<= 10; i++)
+            {
+               
+                sum+= i ;
+                Console.WriteLine("{0}\t{1}", i,sum);
+            }
         }
         #endregion
 
