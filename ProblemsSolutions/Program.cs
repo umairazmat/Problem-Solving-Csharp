@@ -33,7 +33,13 @@
             Console.WriteLine("Problem 11");
            // Problem11();
             Console.WriteLine("Problem 12");
-            Problem12();
+            // Problem12();
+            Console.WriteLine("Problem 13");
+             Problem13();
+            Console.WriteLine("Problem 14");
+            // Problem14();
+            Console.WriteLine("Problem 15");
+            // Problem15();
 
 
 
@@ -341,6 +347,36 @@
             Console.WriteLine("{0}\t{1}\t{2}", n, n2, n3);
         }
 
+        #endregion
+
+        #region Problem 13
+        public static void Problem13()
+        {
+            Console.Write("Enter number for Table : ");
+            int table = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter How many times you want to print :");
+            int mul = Convert.ToInt32(Console.ReadLine());
+
+            for (int times = 0; times < mul; times++)
+            {
+                int result =  table * times;
+                Console.WriteLine("{0} * {1} = {2}",table,times,result);
+            }
+        }
+        #endregion
+
+        #region Problem 14
+        public static void Problem14()
+        {
+
+        }
+        #endregion
+
+        #region Problem 15
+        public static void Problem15()
+        {
+
+        }
         #endregion
     }
 
