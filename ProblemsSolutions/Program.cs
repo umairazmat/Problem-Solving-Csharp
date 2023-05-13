@@ -37,13 +37,19 @@
             Console.WriteLine("Problem 13");
             // Problem13();
             Console.WriteLine("Problem 14");
-            Problem14();
+            //Problem14();
             Console.WriteLine("Problem 15");
             // Problem15();
             Console.WriteLine("Problem 16");
             // Problem16();
             Console.WriteLine("Problem 17");
-            // Problem17();
+             Problem17();
+            Console.WriteLine("Problem 18");
+            // Problem18();
+            Console.WriteLine("Problem 19");
+            // Problem19();
+            Console.WriteLine("Problem 20");
+            // Problem20();
 
 
 
@@ -395,6 +401,8 @@
 
             Console.Write("Enter number for Table : ");
             int table = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter How many times you want to print :");
+            //int mul = Convert.ToInt32(Console.ReadLine());
 
             for (int times = 10; times >= 0; times--)
             {
@@ -410,12 +418,46 @@
         #region Problem 16
         public static void Problem16()
         {
+            Console.Write("Enter number for Table : ");
+            int table = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter How many times you want to print :");
+            //int mul = Convert.ToInt32(Console.ReadLine());
+
+            for (int times = 0; times < 10; times++)
+            {
+                if (times % 2 != 0)
+                {
+                    int result = table * times;
+                    Console.WriteLine("{0} * {1} = {2}", table, times, result);
+                }
+            }
 
         }
         #endregion
 
         #region Problem 17
         public static void Problem17()
+        {
+
+        }
+#
+
+        #region Problem 18
+        public static void Problem18()
+        {
+
+        }
+        #endregion
+
+        #region Problem 19
+        public static void Problem19()
+        {
+
+        }
+        #endregion
+
+        #region Problem 20
+        public static void Problem20()
         {
 
         }
