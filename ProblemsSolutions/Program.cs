@@ -47,9 +47,14 @@
             Console.WriteLine("Problem 18");
              // Problem18();
             Console.WriteLine("Problem 19");
-             Problem19();
+             // Problem19();
             Console.WriteLine("Problem 20");
-            // Problem20();
+             Problem20();
+            Console.WriteLine("Problem 21");
+            // Problem21();
+            Console.WriteLine("Problem 22");
+            // Problem22();
+
 
 
 
@@ -493,9 +498,27 @@
         #region Problem 20
         public static void Problem20()
         {
+            for (int i = 0; i<= 10; i++)
+            {
+                Console.WriteLine("i:{0}", i);
+            }
+        }
+        #endregion
+
+        #region Problem 21
+        public static void Problem21()
+        {
 
         }
         #endregion
+
+        #region Problem 22
+        public static void Problem22()
+        {
+
+        }
+        #endregion
+
     }
 
 }
