@@ -37,9 +37,9 @@
             Console.WriteLine("Problem 13");
             // Problem13();
             Console.WriteLine("Problem 14");
-           // Problem14();
+            Problem14();
             Console.WriteLine("Problem 15");
-             Problem15();
+            // Problem15();
             Console.WriteLine("Problem 16");
             // Problem16();
             Console.WriteLine("Problem 17");
@@ -375,10 +375,10 @@
 
             Console.Write("Enter number for Table : ");
             int table = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter How many times you want to print :");
-            int mul = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter How many times you want to print :");
+            //int mul = Convert.ToInt32(Console.ReadLine());
 
-            for ( int times = 0; times < mul; times++)
+            for ( int times = 0; times <= 10 ; times++)
             {
                 if (times % 2 == 0 )
                 {
@@ -395,8 +395,6 @@
 
             Console.Write("Enter number for Table : ");
             int table = Convert.ToInt32(Console.ReadLine());
-            //Console.Write("Enter How many times you want to print :");
-            //int mul = Convert.ToInt32(Console.ReadLine());
 
             for (int times = 10; times >= 0; times--)
             {
