@@ -55,9 +55,9 @@
             Console.WriteLine("Problem 22");
             // Problem22();
             Console.WriteLine("Problem 23");
-             Problem23();
+            // Problem23();
             Console.WriteLine("Problem 24");
-            // Problem24();
+             Problem24();
             Console.WriteLine("Problem 25");
             // Problem25();
 
@@ -551,6 +551,14 @@
         public static void Problem24()
         {
 
+            for (int i = 1; i <= 5; i++)
+            {
+                for (int j = 5; j >= i; j--)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
         }
         #endregion
 
