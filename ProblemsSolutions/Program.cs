@@ -72,9 +72,20 @@ namespace ProblemSolution
             //Problem28(4,5);
             //Problem28(5,5);
             Console.WriteLine("Problem 29");
-            Problem29();
+            // Problem29();
             Console.WriteLine("Problem 30");
-            //Problem30();
+            // Problem30();
+            Console.WriteLine("Problem 31");
+            Problem31();
+            
+            Console.WriteLine("Problem 32");
+            //Problem32();
+            Console.WriteLine("Problem 33");
+            //Problem33();
+            Console.WriteLine("Problem 34");
+            // Problem34();
+            Console.WriteLine("Problem 35");
+            //Problem35();
 
 
 
@@ -695,9 +706,52 @@ namespace ProblemSolution
         }
         #endregion
 
-
         #region problem 30
         public static void Problem30()
+        {
+
+        }
+        #endregion
+
+        #region problem 31
+        public static void Problem31()
+        {
+            static void Sum(int num1 ,int num2)
+            {
+               // Console.Write("Enter num1 :");
+                //num1 = Convert.ToInt32(Console.ReadLine());
+                //Console.Write("Enter num2 :");
+                //num2 = Convert.ToInt32(Console.ReadLine());
+               // int sum = num1 + num2;
+                Console.WriteLine("Sum  = {0} + {1} ", num1, num2);
+            }
+            Sum(3,5);
+        }
+        #endregion
+
+        #region problem 32
+        public static void Problem32()
+        {
+
+        }
+        #endregion
+
+        #region problem 33
+        public static void Problem33()
+        {
+
+        }
+        #endregion
+
+        #region problem 34
+        public static void Problem34()
+        {
+
+        }
+        #endregion
+
+        #region problem 35
+        public static void Problem35()
         {
 
         }
