@@ -60,8 +60,16 @@
             // Problem24();
             Console.WriteLine("Problem 25");
             // Problem25();
-            Console.WriteLine("Problem 26");
-             Problem26();
+            //Console.WriteLine("Problem 26");
+            //Problem26();
+            Console.WriteLine("Problem 27");
+            Problem27();
+            //Console.WriteLine("Problem 28");
+            //Problem28();
+            //Console.WriteLine("Problem 29");
+            //Problem29();
+            //Console.WriteLine("Problem 30");
+            //Problem30();
 
 
 
@@ -610,6 +618,47 @@
                 }
                 Console.WriteLine();
             }
+
+        }
+        #endregion
+
+        #region problem 27
+        public static void Problem27()
+        {
+            Console.Write("Enter some integer : ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            if (num % 2 == 0)
+            {
+                Console.WriteLine("{0} is even number",num);
+            }
+            else
+            {
+                Console.WriteLine("{0} is odd number",num);
+            }
+
+        }
+        #endregion
+
+
+        #region problem 28
+        public static void Problem28()
+        {
+
+        }
+        #endregion
+
+
+        #region problem 29
+        public static void Problem29()
+        {
+
+        }
+        #endregion
+
+
+        #region problem 30
+        public static void Problem30()
+        {
 
         }
         #endregion
