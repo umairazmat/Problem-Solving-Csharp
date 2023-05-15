@@ -84,7 +84,7 @@ namespace ProblemSolution
             Console.WriteLine("Problem 34");
              Problem34();
             Console.WriteLine("Problem 35");
-            //Problem35();
+            Problem35();
 
 
 
@@ -784,6 +784,23 @@ namespace ProblemSolution
         public static void Problem35()
         {
 
+            static bool isOdd(int value)
+            {
+                // Console.Write("Pleae Enter a number :");
+
+                if (value % 2 != 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+
+            }
+            int number = 5;
+            bool result = isOdd(number);
+            Console.WriteLine($"Is {number} odd? {result}");
         }
         #endregion
     }
