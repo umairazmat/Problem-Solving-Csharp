@@ -12,75 +12,75 @@ namespace ProblemSolution
             //  starsSeries1();
             //  Console.WriteLine("Star Series2");
             // starsSeries2();
-            Console.WriteLine("Problem 01");
-            // Problem1();
-            Console.WriteLine("Problem 02");
-            // Problem2();
-            Console.WriteLine("Problem 03");
-            // Problem3();
-            Console.WriteLine("Problem 04");
-            // Problem4();
-            Console.WriteLine("Problem 05");
-            // Problem5();
-            Console.WriteLine("Problem 06");
-            //  Problem6();
-            Console.WriteLine("Problem 07");
-            // Problem7();
-            Console.WriteLine("Problem 08");
-            // Problem8();
-            Console.WriteLine("Problem 09");
-            // Problem9();
-            Console.WriteLine("Problem 10");
-            // Problem10();
-            Console.WriteLine("Problem 11");
-           // Problem11();
-            Console.WriteLine("Problem 12");
-            // Problem12();
-            Console.WriteLine("Problem 13");
-            // Problem13();
-            Console.WriteLine("Problem 14");
-            //Problem14();
-            Console.WriteLine("Problem 15");
-            // Problem15();
-            Console.WriteLine("Problem 16");
-            // Problem16();
-            Console.WriteLine("Problem 17");
-             // Problem17();
-            Console.WriteLine("Problem 18");
-             // Problem18();
-            Console.WriteLine("Problem 19");
-             // Problem19();
-            Console.WriteLine("Problem 20");
-             // Problem20();
-            Console.WriteLine("Problem 21");
-            // Problem21();
-            Console.WriteLine("Problem 22");
-            // Problem22();
-            Console.WriteLine("Problem 23");
-            // Problem23();
-            Console.WriteLine("Problem 24");
-            // Problem24();
-            Console.WriteLine("Problem 25");
-            // Problem25();
-            //Console.WriteLine("Problem 26");
-            //Problem26();
-            Console.WriteLine("Problem 27");
-             //Problem27(4);
-             //Problem27(3);
-             //Problem27(13);
-            Console.WriteLine("Problem 28");
-            //Problem28(4,5);
-            //Problem28(5,5);
-            Console.WriteLine("Problem 29");
-            // Problem29();
-            Console.WriteLine("Problem 30");
-            // Problem30();
+           // Console.WriteLine("Problem 01");
+           // // Problem1();
+           // Console.WriteLine("Problem 02");
+           // // Problem2();
+           // Console.WriteLine("Problem 03");
+           // // Problem3();
+           // Console.WriteLine("Problem 04");
+           // // Problem4();
+           // Console.WriteLine("Problem 05");
+           // // Problem5();
+           // Console.WriteLine("Problem 06");
+           // //  Problem6();
+           // Console.WriteLine("Problem 07");
+           // // Problem7();
+           // Console.WriteLine("Problem 08");
+           // // Problem8();
+           // Console.WriteLine("Problem 09");
+           // // Problem9();
+           // Console.WriteLine("Problem 10");
+           // // Problem10();
+           // Console.WriteLine("Problem 11");
+           //// Problem11();
+           // Console.WriteLine("Problem 12");
+           // // Problem12();
+           // Console.WriteLine("Problem 13");
+           // // Problem13();
+           // Console.WriteLine("Problem 14");
+           // //Problem14();
+           // Console.WriteLine("Problem 15");
+           // // Problem15();
+           // Console.WriteLine("Problem 16");
+           // // Problem16();
+           // Console.WriteLine("Problem 17");
+           //  // Problem17();
+           // Console.WriteLine("Problem 18");
+           //  // Problem18();
+           // Console.WriteLine("Problem 19");
+           //  // Problem19();
+           // Console.WriteLine("Problem 20");
+           //  // Problem20();
+           // Console.WriteLine("Problem 21");
+           // // Problem21();
+           // Console.WriteLine("Problem 22");
+           // // Problem22();
+           // Console.WriteLine("Problem 23");
+           // // Problem23();
+           // Console.WriteLine("Problem 24");
+           // // Problem24();
+           // Console.WriteLine("Problem 25");
+           // // Problem25();
+           // //Console.WriteLine("Problem 26");
+           // //Problem26();
+           // Console.WriteLine("Problem 27");
+           //  //Problem27(4);
+           //  //Problem27(3);
+           //  //Problem27(13);
+           // Console.WriteLine("Problem 28");
+           // //Problem28(4,5);
+           // //Problem28(5,5);
+           // Console.WriteLine("Problem 29");
+           // // Problem29();
+           // Console.WriteLine("Problem 30");
+           // // Problem30();
             Console.WriteLine("Problem 31");
             //Problem31();  
             Console.WriteLine("Problem 32");
-            Problem32();
+            //Problem32();
             Console.WriteLine("Problem 33");
-            //Problem33();
+            Problem33();
             Console.WriteLine("Problem 34");
             // Problem34();
             Console.WriteLine("Problem 35");
@@ -717,7 +717,10 @@ namespace ProblemSolution
         {
             static void Sum(int num1 ,int num2)
             {
-                Console.WriteLine("Sum  = {0} + {1} ", num1, num2);
+                int sum = num1 + num2;
+                Console.WriteLine("A = {0}", num1);
+                Console.WriteLine("B = {0}", num2);
+                Console.WriteLine("Sum = {0}", sum);
             }
             Sum(3,5);
         }
@@ -742,7 +745,14 @@ namespace ProblemSolution
         #region problem 33
         public static void Problem33()
         {
-
+            static void Subtract(int num1, int num2)
+            {
+                int sub = num1 - num2;
+                Console.WriteLine("A = {0}", num1);
+                Console.WriteLine("B = {0}", num2);
+                Console.WriteLine("Sub = {0}", sub);
+            }
+            Subtract(3, 5);
         }
         #endregion
 
