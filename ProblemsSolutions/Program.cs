@@ -1,4 +1,6 @@
-﻿namespace ProblemSolution
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace ProblemSolution
 {
 
     public class ProblemSolution
@@ -67,11 +69,11 @@
              //Problem27(3);
              //Problem27(13);
             Console.WriteLine("Problem 28");
-            Problem28(4,5);
-            Problem28(5,5);
+            //Problem28(4,5);
+            //Problem28(5,5);
             Console.WriteLine("Problem 29");
-            //Problem29();
-           Console.WriteLine("Problem 30");
+            Problem29();
+            Console.WriteLine("Problem 30");
             //Problem30();
 
 
@@ -665,6 +667,30 @@
         #region problem 29
         public static void Problem29()
         {
+            Console.Write("Enter Total Marks :");
+            int totalMarks = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter Obtained Marks :");
+            decimal obtainedMarks = Convert.ToDecimal(Console.ReadLine());
+            decimal percentage = obtainedMarks / totalMarks;
+            percentage = percentage * 100;
+            Console.WriteLine(percentage);
+            
+            if ( percentage >= 90)
+            {
+                Console.WriteLine("Grade: A+");
+            }
+            else if  (percentage >= 80)
+            {
+                Console.WriteLine("Grade: B");
+            }
+            else if (percentage >= 70)
+            {
+                Console.WriteLine("Grade: C");
+            }
+            else
+            {
+                Console.WriteLine("Fail!");
+            }
 
         }
         #endregion
