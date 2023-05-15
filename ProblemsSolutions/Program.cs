@@ -63,12 +63,14 @@
             //Console.WriteLine("Problem 26");
             //Problem26();
             Console.WriteLine("Problem 27");
-            Problem27();
-            //Console.WriteLine("Problem 28");
-            //Problem28();
-            //Console.WriteLine("Problem 29");
+             Problem27(4);
+             Problem27(3);
+             Problem27(13);
+            Console.WriteLine("Problem 28");
+           // Problem28();
+            Console.WriteLine("Problem 29");
             //Problem29();
-            //Console.WriteLine("Problem 30");
+           Console.WriteLine("Problem 30");
             //Problem30();
 
 
@@ -623,10 +625,10 @@
         #endregion
 
         #region problem 27
-        public static void Problem27()
+        public static void Problem27(int num)
         {
             Console.Write("Enter some integer : ");
-            int num = Convert.ToInt32(Console.ReadLine());
+           //  num = Convert.ToInt32(Console.ReadLine());
             if (num % 2 == 0)
             {
                 Console.WriteLine("{0} is even number",num);
