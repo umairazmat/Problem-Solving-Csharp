@@ -63,11 +63,12 @@
             //Console.WriteLine("Problem 26");
             //Problem26();
             Console.WriteLine("Problem 27");
-             Problem27(4);
-             Problem27(3);
-             Problem27(13);
+             //Problem27(4);
+             //Problem27(3);
+             //Problem27(13);
             Console.WriteLine("Problem 28");
-           // Problem28();
+            Problem28(4,5);
+            Problem28(5,5);
             Console.WriteLine("Problem 29");
             //Problem29();
            Console.WriteLine("Problem 30");
@@ -643,9 +644,20 @@
 
 
         #region problem 28
-        public static void Problem28()
+        public static void Problem28(int firstNum,int secondNum)
         {
-
+            //Console.Write("Enter First Number : ");
+            //int firstNum = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter First Number : ");
+            //int secondNum = Convert.ToInt32(Console.ReadLine());
+            if (firstNum == secondNum)
+            {
+                Console.WriteLine("The number {0} and {1} are equal", firstNum, secondNum);
+            }
+            else
+            {
+                Console.WriteLine("The number {0} and {1} are not equal", firstNum, secondNum);
+            }
         }
         #endregion
 
