@@ -80,9 +80,9 @@ namespace ProblemSolution
             Console.WriteLine("Problem 32");
             //Problem32();
             Console.WriteLine("Problem 33");
-            Problem33();
+           // Problem33();
             Console.WriteLine("Problem 34");
-            // Problem34();
+             Problem34();
             Console.WriteLine("Problem 35");
             //Problem35();
 
@@ -759,6 +759,23 @@ namespace ProblemSolution
         #region problem 34
         public static void Problem34()
         {
+            static bool isEven(int value)
+            {
+                // Console.Write("Pleae Enter a number :");
+               
+                if (value % 2 == 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+
+            }
+            int number = 5;
+            bool result = isEven(number);
+            Console.WriteLine($"Is {number} even? {result}");
 
         }
         #endregion
