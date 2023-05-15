@@ -76,10 +76,9 @@ namespace ProblemSolution
             Console.WriteLine("Problem 30");
             // Problem30();
             Console.WriteLine("Problem 31");
-            Problem31();
-            
+            //Problem31();  
             Console.WriteLine("Problem 32");
-            //Problem32();
+            Problem32();
             Console.WriteLine("Problem 33");
             //Problem33();
             Console.WriteLine("Problem 34");
@@ -718,11 +717,6 @@ namespace ProblemSolution
         {
             static void Sum(int num1 ,int num2)
             {
-               // Console.Write("Enter num1 :");
-                //num1 = Convert.ToInt32(Console.ReadLine());
-                //Console.Write("Enter num2 :");
-                //num2 = Convert.ToInt32(Console.ReadLine());
-               // int sum = num1 + num2;
                 Console.WriteLine("Sum  = {0} + {1} ", num1, num2);
             }
             Sum(3,5);
@@ -732,7 +726,16 @@ namespace ProblemSolution
         #region problem 32
         public static void Problem32()
         {
-
+            static void Sum()
+            {
+                Console.Write("Enter num1 :");
+                int  num1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter num2 :");
+                int  num2 = Convert.ToInt32(Console.ReadLine());
+                int sum = num1 + num2;
+                Console.WriteLine("Sum of two numbers = {0} ", sum);
+            }
+            Sum();
         }
         #endregion
 
