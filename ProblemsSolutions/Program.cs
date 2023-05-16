@@ -73,8 +73,8 @@ namespace ProblemSolution
            // //Problem28(5,5);
            // Console.WriteLine("Problem 29");
            // // Problem29();
-           // Console.WriteLine("Problem 30");
-           // // Problem30();
+            Console.WriteLine("Problem 30");
+            Problem30();
             Console.WriteLine("Problem 31");
             //Problem31();  
             Console.WriteLine("Problem 32");
@@ -85,6 +85,16 @@ namespace ProblemSolution
            //  Problem34();
             Console.WriteLine("Problem 35");
             // Problem35();
+            Console.WriteLine("Problem 36");
+            // Problem36();
+            Console.WriteLine("Problem 37");
+            // Problem37();
+            Console.WriteLine("Problem 38");
+            // Problem38();
+            Console.WriteLine("Problem 39");
+            // Problem39();
+            Console.WriteLine("Problem 40");
+            // Problem40();
 
 
 
@@ -706,7 +716,18 @@ namespace ProblemSolution
         #region problem 30
         public static void Problem30()
         {
-
+            static void printTable(int num)
+            {
+                for (int i = 0; i <= 10; i++)
+                {
+                    int mul = i * num;
+                    Console.WriteLine("{0} * {1} = {2}",num ,i , mul );
+                }
+            }
+            printTable(2);
+            printTable(3);
+            printTable(5);
+            
         }
         #endregion
 
