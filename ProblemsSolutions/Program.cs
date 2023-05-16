@@ -74,7 +74,7 @@ namespace ProblemSolution
            // Console.WriteLine("Problem 29");
            // // Problem29();
             Console.WriteLine("Problem 30");
-            Problem30();
+            //Problem30();
             Console.WriteLine("Problem 31");
             //Problem31();  
             Console.WriteLine("Problem 32");
@@ -86,7 +86,7 @@ namespace ProblemSolution
             Console.WriteLine("Problem 35");
             // Problem35();
             Console.WriteLine("Problem 36");
-            // Problem36();
+             Problem36();
             Console.WriteLine("Problem 37");
             // Problem37();
             Console.WriteLine("Problem 38");
@@ -820,6 +820,47 @@ namespace ProblemSolution
             int number = 5;
             bool result = isOdd(number);
             Console.WriteLine($"Is {number} odd? {result}");
+        }
+        #endregion
+
+        #region Problem36
+        public static void Problem36()
+        {
+            Console.Write("Enter Date of Birth : ");
+            DateTime dateOfBirth = Convert.ToDateTime(Console.ReadLine());
+            DateTime currentDate = DateTime.Today;
+             TimeSpan age = currentDate - dateOfBirth;
+            int years = (int)(age.Days / 365.25);
+            Console.WriteLine("Your Age is : {0} ", years);
+
+        }
+        #endregion
+
+        #region Problem37
+        public static void Problem37()
+        {
+
+        }
+        #endregion
+
+        #region Problem38
+        public static void Problem38()
+        {
+
+        }
+        #endregion
+
+        #region Problem39
+        public static void Problem39()
+        {
+
+        }
+        #endregion
+
+        #region Problem40
+        public static void Problem40()
+        {
+
         }
         #endregion
     }
