@@ -82,9 +82,9 @@ namespace ProblemSolution
             Console.WriteLine("Problem 33");
            // Problem33();
             Console.WriteLine("Problem 34");
-             Problem34();
+           //  Problem34();
             Console.WriteLine("Problem 35");
-            Problem35();
+            // Problem35();
 
 
 
@@ -654,7 +654,6 @@ namespace ProblemSolution
         }
         #endregion
 
-
         #region problem 28
         public static void Problem28(int firstNum,int secondNum)
         {
@@ -672,7 +671,6 @@ namespace ProblemSolution
             }
         }
         #endregion
-
 
         #region problem 29
         public static void Problem29()
