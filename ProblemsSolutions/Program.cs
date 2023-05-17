@@ -92,9 +92,19 @@ namespace ProblemSolution
             Console.WriteLine("Problem 38");
             // Problem38();
             Console.WriteLine("Problem 39");
-             Problem39();
+           //  Problem39();
             Console.WriteLine("Problem 40");
-            // Problem40();
+             Problem40();
+            Console.WriteLine("Problem 41");
+           // Problem41();
+            Console.WriteLine("Problem 42");
+            //Problem42();
+            Console.WriteLine("Problem 43");
+           // Problem43();
+            Console.WriteLine("Problem 44");
+            //Problem44();
+            Console.WriteLine("Problem 45");
+            //Problem45();
 
 
 
@@ -911,6 +921,55 @@ namespace ProblemSolution
 
         #region Problem40
         public static void Problem40()
+        {
+            int sum = 0;
+            int evenSum = 0;
+            int oddSum = 0;
+
+            for ( int i = 0; i<=10; i++)
+            {
+              
+              
+
+                sum += i;
+            }
+            Console.WriteLine("Sum = " + sum);
+            Console.WriteLine("Even = " + evenSum);
+            Console.WriteLine("Odd = " + oddSum);
+
+        }
+        #endregion
+
+        #region Problem41
+        public static void Problem41()
+        {
+
+        }
+        #endregion
+
+        #region Problem42
+        public static void Problem42()
+        {
+
+        }
+        #endregion
+
+        #region Problem43
+        public static void Problem43()
+        {
+
+        }
+        #endregion
+
+        #region Problem44
+        public static void Problem44()
+        {
+
+        }
+        #endregion
+
+        #region Problem45
+        public static void Problem45()
         {
 
         }
