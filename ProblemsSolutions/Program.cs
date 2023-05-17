@@ -86,9 +86,9 @@ namespace ProblemSolution
             Console.WriteLine("Problem 35");
             // Problem35();
             Console.WriteLine("Problem 36");
-             Problem36();
+            // Problem36();
             Console.WriteLine("Problem 37");
-            // Problem37();
+             Problem37();
             Console.WriteLine("Problem 38");
             // Problem38();
             Console.WriteLine("Problem 39");
@@ -826,6 +826,7 @@ namespace ProblemSolution
         #region Problem36
         public static void Problem36()
         {
+      
             Console.Write("Enter Date of Birth (yyyy-MM-dd): ");
             DateTime userAge = Convert.ToDateTime(Console.ReadLine());
             int currentYear = DateTime.Now.Year;
@@ -838,7 +839,45 @@ namespace ProblemSolution
         #region Problem37
         public static void Problem37()
         {
+            static void  AgeStatus(){
 
+                Console.Write("Enter Date of Birth (yyyy-MM-dd): ");
+                DateTime userAge = Convert.ToDateTime(Console.ReadLine());
+                int currentYear = DateTime.Now.Year;
+                int age = currentYear - userAge.Year;
+
+                if (age >= 0 && age <= 5)
+                {
+                    Console.WriteLine("Your Age  is: {0} years", age);
+                    Console.WriteLine("Your Age Staus  is: Infant");
+                }
+                else if  (age >= 6 && age <= 12)
+                {
+                    Console.WriteLine("Your Age  is: {0} years", age);
+                    Console.WriteLine("Your Age Staus  is: Child");
+                }
+                else if (age >= 13 && age <= 19)
+                {
+                    Console.WriteLine("Your Age  is: {0} years", age);
+                    Console.WriteLine("Your Age Staus  is: Teenage");
+                }
+                else if (age >= 20 && age <= 35)
+                {
+                    Console.WriteLine("Your Age  is: {0} years", age);
+                    Console.WriteLine("Your Age Staus  is: Young");
+                }
+                else if (age >= 35 && age <= 60)
+                {
+                    Console.WriteLine("Your Age  is: {0} years", age);
+                    Console.WriteLine("Your Age Staus  is: Middle Age");
+                }
+                else
+                {
+                    Console.WriteLine("Your Age  is: {0} years", age);
+                    Console.WriteLine("Your Age Staus  is: Middle Age");
+                }
+            }
+            AgeStatus();
         }
         #endregion
 
