@@ -88,11 +88,11 @@ namespace ProblemSolution
             Console.WriteLine("Problem 36");
             // Problem36();
             Console.WriteLine("Problem 37");
-             Problem37();
+            // Problem37();
             Console.WriteLine("Problem 38");
             // Problem38();
             Console.WriteLine("Problem 39");
-            // Problem39();
+             Problem39();
             Console.WriteLine("Problem 40");
             // Problem40();
 
@@ -839,7 +839,21 @@ namespace ProblemSolution
         #region Problem37
         public static void Problem37()
         {
-            static void  AgeStatus(){
+            Console.Write("Enter Date of Birth (yyyy-MM-dd): ");
+            DateTime userAge = Convert.ToDateTime(Console.ReadLine());
+            int currentYear = DateTime.Now.Year;
+            int age = currentYear - userAge.Year;
+
+            Console.WriteLine("Your are  {0} years old", age);
+          
+        }
+        #endregion
+
+        #region Problem38
+        public static void Problem38()
+        {
+            static void AgeStatus()
+            {
 
                 Console.Write("Enter Date of Birth (yyyy-MM-dd): ");
                 DateTime userAge = Convert.ToDateTime(Console.ReadLine());
@@ -851,7 +865,7 @@ namespace ProblemSolution
                     Console.WriteLine("Your Age  is: {0} years", age);
                     Console.WriteLine("Your Age Staus  is: Infant");
                 }
-                else if  (age >= 6 && age <= 12)
+                else if (age >= 6 && age <= 12)
                 {
                     Console.WriteLine("Your Age  is: {0} years", age);
                     Console.WriteLine("Your Age Staus  is: Child");
@@ -881,17 +895,17 @@ namespace ProblemSolution
         }
         #endregion
 
-        #region Problem38
-        public static void Problem38()
-        {
-
-        }
-        #endregion
-
         #region Problem39
         public static void Problem39()
         {
-
+            Console.Write("Enter some integer: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+            int fact = 1;
+            for (int i = 1; i <= number; i++)
+            {
+                fact = fact * i;
+            }
+            Console.WriteLine("Factorial of " + number + " is: " + fact);
         }
         #endregion
 
