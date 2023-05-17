@@ -826,13 +826,12 @@ namespace ProblemSolution
         #region Problem36
         public static void Problem36()
         {
-            Console.Write("Enter Date of Birth : ");
-            DateTime dateOfBirth = Convert.ToDateTime(Console.ReadLine());
-            DateTime currentDate = DateTime.Today;
-             TimeSpan age = currentDate - dateOfBirth;
-            int years = (int)(age.Days / 365.25);
-            Console.WriteLine("Your Age is : {0} ", years);
+            Console.Write("Enter Date of Birth (yyyy-MM-dd): ");
+            DateTime userAge = Convert.ToDateTime(Console.ReadLine());
+            int currentYear = DateTime.Now.Year;
+            int age = currentYear - userAge.Year;
 
+            Console.WriteLine("Your Age is: {0} years", age);
         }
         #endregion
 
