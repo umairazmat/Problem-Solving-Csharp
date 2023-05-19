@@ -97,9 +97,9 @@ namespace ProblemSolution
             Console.WriteLine("Problem 40");
            //  Problem40();
             Console.WriteLine("Problem 41");
-            Problem41();
+            // Problem41();
             Console.WriteLine("Problem 42");
-            //Problem42();
+            Problem42();
             Console.WriteLine("Problem 43");
            // Problem43();
             Console.WriteLine("Problem 44");
@@ -987,7 +987,55 @@ namespace ProblemSolution
         #region Problem42
         public static void Problem42()
         {
+            Console.WriteLine("No.\tInformation about Number");
+            Console.WriteLine("-----------------------------");
 
+            for (int number = 1; number <= 10; number++)
+            {
+                string information = GetNumberInformation(number);
+                Console.WriteLine($"{number}\t{information}");
+            }
+
+            static string GetNumberInformation(int number)
+            {
+                string information = "";
+
+                if (IsOdd(number))
+                    information += "Odd number, ";
+                else
+                    information += "Even number, ";
+
+                if (IsPrime(number))
+                    information += "Prime number";
+                else
+                    information += "Not Prime number";
+
+                return information;
+            }
+
+             static bool IsEven(int number)
+            {
+                return number % 2 == 0;
+            }
+
+             static bool IsOdd(int number)
+            {
+                return number % 2 != 0;
+            }
+
+             static bool IsPrime(int number)
+            {
+                if (number < 2)
+                    return false;
+
+                for (int i = 2; i < number; i++)
+                {
+                    if (number % i == 0)
+                        return false;
+                }
+
+                return true;
+            }
         }
         #endregion
 
