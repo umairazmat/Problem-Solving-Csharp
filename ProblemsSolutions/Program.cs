@@ -101,9 +101,9 @@ namespace ProblemSolution
             Console.WriteLine("Problem 42");
             // Problem42();
             Console.WriteLine("Problem 43");
-            Problem43();
+           // Problem43();
             Console.WriteLine("Problem 44");
-            //Problem44();
+            Problem44();
             Console.WriteLine("Problem 45");
             //Problem45();
 
@@ -1123,6 +1123,97 @@ namespace ProblemSolution
         #region Problem44
         public static void Problem44()
         {
+            Console.WriteLine("Number\tInformation");
+            Console.WriteLine("---------------------------");
+
+            for (int number = 1; number <= 10; number++)
+            {
+                string information = GetNumberInformation(number);
+                Console.WriteLine(information);
+            }
+            static string GetNumberInformation(int number)
+            {
+                string information = $"{number} ";
+
+                if (IsPrime(number))
+                {
+                    information += "is Prime and ";
+                }
+                else
+                {
+                    information += "is Not Prime and ";
+                }
+
+                if (IsOdd(number))
+                {
+                    information += "Odd Number. ";
+                }
+                else
+                {
+                    information += "Even Number. ";
+                }
+
+                int factorial = Factorial(number);
+                information += $"Its Factorial is {factorial} ,";
+
+                int square = Square(number);
+                information += $"Square is {square} and ";
+
+                int cube = Cube(number);
+                information += $"Cube is {cube} ";
+
+
+                return information;
+            }
+
+            static bool IsEven(int number)
+            {
+                return number % 2 == 0;
+            }
+
+            static bool IsOdd(int number)
+            {
+                return number % 2 != 0;
+            }
+
+            static bool IsPrime(int number)
+            {
+                if (number < 2)
+                    return false;
+
+                for (int i = 2; i <= Math.Sqrt(number); i++)
+                {
+                    if (number % i == 0)
+                        return false;
+                }
+
+                return true;
+            }
+
+            static int Factorial(int number)
+            {
+                if (number == 0)
+                    return 1;
+
+                int factorial = 1;
+
+                for (int i = 1; i <= number; i++)
+                {
+                    factorial *= i;
+                }
+
+                return factorial;
+            }
+
+            static int Square(int number)
+            {
+                return number * number;
+            }
+
+            static int Cube(int number)
+            {
+                return number * number * number;
+            }
 
         }
         #endregion
