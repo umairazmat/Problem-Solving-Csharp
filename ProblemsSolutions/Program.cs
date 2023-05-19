@@ -74,43 +74,44 @@ namespace ProblemSolution
            // //Problem28(5,5);
            // Console.WriteLine("Problem 29");
            // // Problem29();
-            Console.WriteLine("Problem 30");
-            //Problem30();
-            Console.WriteLine("Problem 31");
-            //Problem31();  
-            Console.WriteLine("Problem 32");
-            //Problem32();
-            Console.WriteLine("Problem 33");
-           // Problem33();
-            Console.WriteLine("Problem 34");
-           //  Problem34();
-            Console.WriteLine("Problem 35");
-            // Problem35();
-            Console.WriteLine("Problem 36");
-            // Problem36();
-            Console.WriteLine("Problem 37");
-            // Problem37();
-            Console.WriteLine("Problem 38");
-            // Problem38();
-            Console.WriteLine("Problem 39");
-           //  Problem39();
-            Console.WriteLine("Problem 40");
-           //  Problem40();
-            Console.WriteLine("Problem 41");
-            // Problem41();
-            Console.WriteLine("Problem 42");
-            // Problem42();
-            Console.WriteLine("Problem 43");
-           // Problem43();
-            Console.WriteLine("Problem 44");
-            //Problem44();
-            Console.WriteLine("Problem 45");
-            Problem45();
+           // Console.WriteLine("Problem 30");
+           // //Problem30();
+           // Console.WriteLine("Problem 31");
+           // //Problem31();  
+           // Console.WriteLine("Problem 32");
+           // //Problem32();
+           // Console.WriteLine("Problem 33");
+           //// Problem33();
+           // Console.WriteLine("Problem 34");
+           ////  Problem34();
+           // Console.WriteLine("Problem 35");
+           // // Problem35();
+           // Console.WriteLine("Problem 36");
+           // // Problem36();
+           // Console.WriteLine("Problem 37");
+           // // Problem37();
+           // Console.WriteLine("Problem 38");
+           // // Problem38();
+           // Console.WriteLine("Problem 39");
+           ////  Problem39();
+           // Console.WriteLine("Problem 40");
+           ////  Problem40();
+           // Console.WriteLine("Problem 41");
+           // // Problem41();
+           // Console.WriteLine("Problem 42");
+           // // Problem42();
+           // Console.WriteLine("Problem 43");
+           //// Problem43();
+           // Console.WriteLine("Problem 44");
+           // //Problem44();
+           // Console.WriteLine("Problem 45");
+           // Problem45();
             Console.WriteLine("Problem 46");
             //Problem46();
             Console.WriteLine("Problem 47");
             //Problem47();
-
+            Console.WriteLine("Problem 47");
+            //Problem48();
 
 
 
@@ -1340,6 +1341,14 @@ namespace ProblemSolution
         #endregion
 
         #region Problem47
+        public static void Problem48()
+        {
+
+        }
+        #endregion
+
+
+        #region Problem48
         public static void Problem47()
         {
 
