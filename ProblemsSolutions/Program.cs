@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ProblemSolution
 {
@@ -94,9 +95,9 @@ namespace ProblemSolution
             Console.WriteLine("Problem 39");
            //  Problem39();
             Console.WriteLine("Problem 40");
-             Problem40();
+           //  Problem40();
             Console.WriteLine("Problem 41");
-           // Problem41();
+            Problem41();
             Console.WriteLine("Problem 42");
             //Problem42();
             Console.WriteLine("Problem 43");
@@ -929,7 +930,15 @@ namespace ProblemSolution
             for ( int i = 0; i<=10; i++)
             {
               
-              
+                Console.WriteLine("{0}", i);
+                if (i % 2 == 0)
+                {
+                    evenSum += i;
+                }
+                else
+                {
+                    oddSum += i;
+                }
 
                 sum += i;
             }
@@ -941,8 +950,36 @@ namespace ProblemSolution
         #endregion
 
         #region Problem41
-        public static void Problem41()
+        public static void  Problem41()
         {
+            static  void isPrime()
+            {
+
+                Console.Write("Enter some number: ");
+                int number = Convert.ToInt32(Console.ReadLine());
+
+                bool isPrime = true;
+
+                if (number < 2)
+                {
+                    isPrime = false;
+                }
+                else
+                {
+                    for (int i = 2; i < number; i++)
+                    {
+                        if (number % i == 0)
+                        {
+                            isPrime = false;
+                            break;
+                        }
+                    }
+                }
+
+                Console.WriteLine(number + (isPrime ? " is a prime number." : " is not a prime number."));
+
+            }
+            isPrime();
 
         }
         #endregion
