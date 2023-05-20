@@ -109,9 +109,9 @@ namespace ProblemSolution
             Console.WriteLine("Problem 46");
             //Problem46();
             Console.WriteLine("Problem 47");
-            //Problem47();
+           // Problem47();
             Console.WriteLine("Problem 48");
-            Problem48();
+             Problem48();
 
 
 
@@ -1343,7 +1343,14 @@ namespace ProblemSolution
         #region Problem47
         public static void Problem47()
         {
+            Console.Write("Enter Value :");
+            string value = Console.ReadLine();
 
+            Console.WriteLine("Original Number: " + value);
+            for (int i = 0; i <= value.Length - 1; i++)
+            {
+                Console.WriteLine("Digit at position " + (i + 1) + ": " + value[i]);
+            }
         }
         #endregion
 
@@ -1355,11 +1362,11 @@ namespace ProblemSolution
             string value = Console.ReadLine();
 
             Console.WriteLine("Original Number: " + value);
-            for (int i= 0; i <= value.Length-1; i++  )
+            for (int i = 0; i <= value.Length - 1; i++)
             {
                 Console.WriteLine("Digit at position " + (i + 1) + ": " + value[i]);
             }
-
+            Console.WriteLine("Length of the number: " + value.Length);
         }
         #endregion
     }
