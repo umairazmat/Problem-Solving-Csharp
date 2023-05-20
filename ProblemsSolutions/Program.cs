@@ -110,8 +110,8 @@ namespace ProblemSolution
             //Problem46();
             Console.WriteLine("Problem 47");
             //Problem47();
-            Console.WriteLine("Problem 47");
-            //Problem48();
+            Console.WriteLine("Problem 48");
+            Problem48();
 
 
 
@@ -1341,7 +1341,7 @@ namespace ProblemSolution
         #endregion
 
         #region Problem47
-        public static void Problem48()
+        public static void Problem47()
         {
 
         }
@@ -1349,8 +1349,16 @@ namespace ProblemSolution
 
 
         #region Problem48
-        public static void Problem47()
+        public static void Problem48()
         {
+            Console.Write("Enter Value :");
+            string value = Console.ReadLine();
+
+            Console.WriteLine("Original Number: " + value);
+            for (int i= 0; i <= value.Length-1; i++  )
+            {
+                Console.WriteLine("Digit at position " + (i + 1) + ": " + value[i]);
+            }
 
         }
         #endregion
